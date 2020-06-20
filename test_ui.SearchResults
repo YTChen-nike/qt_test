@@ -1,0 +1,49 @@
+---- GetTickCount Matches (48 in 7 files) ----
+Aw_fsm.cpp (util):	isDelayEvt = evt.start_time > GetTickCount();
+Aw_fsm.cpp (util):	e.start_time = GetTickCount() + ms;
+Aw_fsm.cpp (util):	e.start_time= GetTickCount();
+Aw_fsm.cpp (util):	e.start_time = GetTickCount() + ms;
+Aw_fsm.cpp (util):	e.start_time= GetTickCount();
+Aw_fsm.cpp (util):	e.start_time= GetTickCount() + ms;
+Aw_fsm.cpp (util):	e.start_time= GetTickCount();
+Aw_fsm.cpp (util):	e.start_time= GetTickCount() + ms;
+Aw_fsm.cpp (util):	e.start_time= GetTickCount();
+Aw_fsm.cpp (util):			unsigned long time = GetTickCount();
+Aw_fsm.cpp (util):				sprintf(text, "[%s] evt(id:%ld type:0x%x) process used %ldms", thread_name, e.id, e.type, GetTickCount() - time);
+Aw_fsm.cpp (util):			unsigned long used_time = GetTickCount() - time;
+Aw_ipc.cpp (util):	unsigned long tick = AwGetTickCount();
+Aw_ipc.cpp (util):	while(timeout_ms < 0 || AwGetTickCount() - tick < timeout_ms)
+Aw_log.cpp (util):		snprintf((char * const)g_log_tmp_buff, LOG_BUFF_SIZE, "%s [%lums] %-8s %s", timeBuffer, GetTickCount(), tag, g_log_buff);
+Aw_util.cpp (util):	time = GetTickCount();
+Aw_util.cpp (util):	g_startTime = GetTickCount();
+Aw_util.cpp (util):	aw_log_tag("time statistics","%s used:%ldms", desc, GetTickCount() - g_startTime);
+Aw_util.cpp (util):unsigned long AwGetTickCount()
+Aw_util.cpp (util):	return GetTickCount();
+Aw_util.cpp (util):unsigned long GetTickCount()
+Aw_util.h (util):unsigned long GetTickCount();
+Aw_util.h (util):unsigned long AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	unsigned long now = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):		g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	unsigned long now_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	unsigned long now_msg1_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	unsigned long now_msg2_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	unsigned long now_msg3_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	if(last_sync_auth_text_time + updata_sync_auth_text_time <= AwGetTickCount() && g_config.sync_auth_flag == 1){
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):		last_sync_auth_text_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):	if (last_update_ip_time + 2000 < AwGetTickCount())
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):		last_update_ip_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_refresh_tempbox_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):				g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):				g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):					g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):					g_config.last_update_name_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):					g_config.last_update_msg3_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):				g_config.last_update_msg2_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):				g_config.last_update_msg1_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):					g_config.last_refresh_facebox_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_update_msg1_time = AwGetTickCount();
+Main_minigui.cpp (z:\awapp\test7\awapp\src\awapp_gui):			g_config.last_update_msg2_time = AwGetTickCount();
+Widget.cpp:            g_config.last_refresh_tempbox_time = AwGetTickCount();
